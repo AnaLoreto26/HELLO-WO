@@ -190,7 +190,7 @@ font-family: NB Medium;
    
     #intro h1 {
       position: relative;
-      z-index: 3;
+      z-index: 5;
       color: white;
       font-size: 70px;
       pointer-events: none;
