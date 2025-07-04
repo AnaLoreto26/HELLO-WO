@@ -217,6 +217,24 @@
    </main>
    
 <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>v
+    <script>
+  const overlay = document.querySelector('.overlay');
+
+  // Define o raio com base na largura da tela
+  const baseRadius = window.innerWidth > 1600 ? 85 : 60;
+
+  document.addEventListener('mousemove', (e) => {
+    const x = e.clientX;
+    const y = e.clientY;
+
+    const circle = `radial-gradient(circle ${baseRadius}px at ${x}px ${y}px, transparent ${baseRadius}px, black ${baseRadius}px)`;
+
+    overlay.style.maskImage = circle;
+    overlay.style.webkitMaskImage = circle;
+  });
+</script>
+
 <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
 <script>
   gsap.registerPlugin(ScrollTrigger);
@@ -246,19 +264,7 @@
   });
 </script>
 
-     <script>
-    const overlay = document.querySelector('.overlay');
 
-    document.addEventListener('mousemove', (e) => {
-      const x = e.clientX;
-      const y = e.clientY;
-
-      const circle = `radial-gradient(circle 60px at ${x}px ${y}px, transparent 60px, black 60px)`;
-
-      overlay.style.maskImage = circle;
-      overlay.style.webkitMaskImage = circle;
-    });
-  </script>
      <script>
     document.querySelectorAll('.toggle-btn').forEach(button => {
       button.addEventListener('click', () => {
