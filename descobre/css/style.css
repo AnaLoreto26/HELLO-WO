@@ -222,17 +222,7 @@ font-family: NB Medium;
    font-size: 6.5rem;
 }
 
-.overlay {
-     position: absolute;
-      inset: 0;
-      background-color: black;
-      pointer-events: none;
 
-      -webkit-mask-image: radial-gradient(circle 85px at center, transparent 85px, black 85px);
-      mask-image: radial-gradient(circle 85px at center, transparent 85px, black 85px);
-    -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-    }
 }
 
 
@@ -448,7 +438,7 @@ margin-bottom:  200px;
 }
 
 .hm {
-margin-right: 15px;
+margin-right: 25px;
 }
 
 .texto {
