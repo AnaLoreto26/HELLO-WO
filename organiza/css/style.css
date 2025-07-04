@@ -514,7 +514,7 @@ font-size: 19px;
 @media (min-width: 1600px) {
 
 .baixo2 {
-      gap: 70px;
+      gap: 0px;
 }  
 
 .cima2 h1 {
@@ -529,6 +529,11 @@ font-size: 19px;
   width: 25rem;
   height: 16em;
 }
+card2{
+margin-left:60px;
+margin-right: 60px
+}
+    
  h2 {
       font-size: 2.125rem;  }
 
