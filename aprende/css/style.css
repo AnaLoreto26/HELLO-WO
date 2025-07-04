@@ -557,7 +557,7 @@ overflow: hidden;
 }
 .baixo2 {
 
-      gap: 70px;
+     gap:0px;
    
     }
 .card1, .card2, .card3 {
@@ -567,6 +567,10 @@ overflow: hidden;
  h2 {
       font-size: 2.125rem;  }
 
+.card2 {
+    margin-left: 60px;
+    margin-right:60px;
+}
 .text.active {
    max-width: 19.375rem;
      padding: 2.5rem 0px 0.625rem 0px;
