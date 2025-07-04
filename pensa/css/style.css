@@ -401,6 +401,9 @@ h1{
 
 /* -----i mac-------- */
 @media (min-width: 1600px) {
+#texto {
+    height: 120vh;
+}
   p{font-size: 22px;}
 
 .cima{
@@ -481,7 +484,7 @@ h1{
 
 .baixo{
   border-style: none;
-  margin:  0px 70px 100px 70px;
+  margin:  0px 70px 0px 70px;
 }
 }
 
