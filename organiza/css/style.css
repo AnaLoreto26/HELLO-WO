@@ -783,7 +783,7 @@ top: 480px;
 }
 
 .tresNota{
-top: 700px;
+top: 650px;
   left: 1075px;
 }
 }
@@ -842,7 +842,7 @@ width: 500px;
 }
 
 .seisNota{
-top:845px;
+bottom: 600px;
 left: 25.8%;
 width: 420px;
 height: 80px;
